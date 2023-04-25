@@ -1,0 +1,329 @@
+body{
+    margin:0%;
+    font-family: system-ui;
+    
+ 
+}
+.background{
+    background-image: url(bitcoin.jpg);
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:55rem;
+    /* background-position; */
+    padding-top: 1%;
+ 
+
+
+
+}
+.nav a:hover{
+    color: orange;
+}
+#home{
+    color:#51cf66;
+}
+.nav a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1rem;
+    display: flex;
+ 
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0 2rem;
+}
+.nav button{
+    color: white;
+    background-color:#2b8a3e ;
+    border-style: none;
+    border-color: #69db7c;
+}
+#logo{
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 5%;
+
+}
+.nav a logo{
+    color: white;;
+    height:1rem;
+    padding: 0 1rem;
+ 
+    margin-top: 5%;
+}
+.nav{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+#secure{
+color: #69db7c;
+
+display: flex;
+gap: 20px;
+list-style: none;
+padding: 0 2rem;
+}
+/* .nav button{
+} */
+#currency{
+    color: #66d9e8;
+}
+#button1{
+    background-color: #94d82d;
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+    
+}
+.text{
+    margin-left: 4%;
+ 
+}
+.text h1{
+     margin-top: 3%;
+     color: white;
+     font-size: 60px;
+
+}
+.text p{
+    margin-top: 4%;
+    color: grey;
+}
+.footer1{
+    margin-top: 20%;
+    height:5rem ;
+    background-color:#94d82d;
+    display: flex;
+    gap:7%;
+}
+.footer1 img{
+    height: 1rem;
+    background-color: #94d82d;
+}
+#italic{
+    font-style: italic;
+}
+
+.page2{
+    background-image:url(black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+    height:250rem;
+    color:whitesmoke; 
+
+
+}
+.page2 h3{
+    color: #3bc9db;
+    float: right;
+    margin-bottom: 19%;
+  
+}
+.display h4 p{
+    color:whitesmoke;
+    display: flex;
+
+}
+.Table{
+    margin-bottom: 6%;
+}
+
+.Table button{
+    background-color: #e64980;
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.Table,tr,th,td{
+    border-style: ridge;
+    background-color:black;
+    width: 70%;
+    border-color: black;
+}
+.payment{
+    background-image: url(page2.jpg);
+    width: 200px;
+    height: 15rem;
+    margin-left: 8%;
+    border-radius: 10px;
+    /* display: flex; */
+    /* margin-top: 20%; */
+
+
+}
+
+.payment img{
+    height: 50px;
+    margin-left: 25%;
+
+}
+.Ecosystem{
+    background-image: url(page2.jpg);
+    width: 200px;
+    height: 13rem;
+    border-radius: 10px;
+    margin-left:25%;
+
+} 
+.Ecosystem img{
+    margin-left: 25%;
+}
+.left{
+    margin-left: 70%;
+    /* margin-bottom: 30%; */
+}
+.left h1{
+    font-weight: bolder;
+}
+.left p{
+    color: grey;
+}
+#buttona{
+    background-color: #94d82d;
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+}
+.invest{
+    margin-left: 8%;
+}
+.invest h4{
+    color: #94d82d;
+}
+.invest p{
+    color: grey;
+}
+#button2{
+   background-color: black;
+    /* border-style: none; */
+    border-radius: 30px;
+    padding: 10px 20px;
+    border-color: #94d82d;
+    color: #94d82d;
+
+}
+#image{
+    height: 15rem;
+    margin-top: 3%;
+    /* margin-right: %; */
+
+}
+.Features{
+
+    margin-bottom: 6%;
+    flex-direction: column;
+    /* float: left; */
+    /* margin-bottom: 5%; */
+
+}
+.Features img{
+    height: 4rem;
+    /* margin-right: 20%; */
+
+}
+.platform{
+    margin-left: 60%;
+}
+
+.clarity{
+    margin-left: 60%;
+    display: flex;
+    gap: 5%;
+
+}
+.confidence{
+    margin-left: 60%;
+    display: flex;
+    gap:3%;
+}
+.community{
+    margin-left: 60%;
+    display: flex;
+    gap: 3%;
+}
+#payment{
+    height: 4rem;
+    margin-left: 30px;
+
+}
+.Features p{
+    color: grey;
+
+}
+.portfolio span{
+    color: #94d82d;
+}
+.portfolio{
+    margin-left: 10%;
+
+
+}
+#trades{
+    height: 20rem;
+    margin-left: 60%;
+    margin-top: 5%;
+}
+.image{
+    /* display: flex; */
+    margin-left: 3%;
+    /* height: 50rem; */
+}
+#google{
+height: 2rem;
+margin-right: 2%;
+
+}
+#apple{
+    height: 3rem;
+    width: 5%;
+   
+}
+.email{
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+.Trading{
+    margin-left: 6%;
+   background-color:#495057;
+    width: 60%;
+    height: 10rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.Trading p,h2{
+    margin-left: 12%;
+}
+.Trading p{
+    color: #94d82d;
+
+}
+.email button{
+    background-color: #94d82d;
+    border-style: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+
+
+}
+.about{
+    display: flex;
+    gap: 5%;
+    margin-left: 4%;
+}
+hr{
+    width: 80%;
+   color:#51cf66;
+}
+.footer{
+    color: #3bc9db;
+    display: flex;
+    gap: 50%;
+}
